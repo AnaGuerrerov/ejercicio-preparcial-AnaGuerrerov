@@ -63,7 +63,7 @@ void Ejercicio2() {
         cout << "\nResultados de la encuesta:\n";
         cout << "Cantidad total de personas: " <<totalEncuestados << endl;
         cout << "El promedio es de: " << (SumaCali / totalEncuestados) << endl;
-        cout << "Cantidad de Jóvenes (18-25): " << Jovenes << endl;
+        cout << "Cantidad de Jovenes (18-25): " << Jovenes << endl;
         cout << "Calificaciones perfectas (10): " << CaliPerfectas << endl;
     }
     else{
@@ -85,12 +85,12 @@ void Ejercicio3() {
     int anterior, actual;
     bool es_ascendente =true; //Hasta que se demuestre lo contrario
 
-    cout << "Número1: ";
+    cout << "Numero 1: ";
     cin >> anterior;
 
     // Se compara el numero actual con el anterior
     for (int i =2; i<=cantidad; i++) {
-        cout << "Número " << i << ": ";
+        cout << "Numero " << i << ": ";
         cin >> actual;
 
         if (actual <= anterior)
